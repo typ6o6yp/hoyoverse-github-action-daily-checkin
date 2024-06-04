@@ -10,7 +10,7 @@ name: Daily Check In Task
 on:
   # Allow manual start
   workflow_dispatch:
-  # Run job on 16:25UTC/00:15CST daily
+  # Run job on 16:25UTC/00:15CST daily/19:25(UTC+3)
   schedule:
   - cron: "25 16 * * *"
   
